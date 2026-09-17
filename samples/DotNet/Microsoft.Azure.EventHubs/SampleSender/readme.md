@@ -17,7 +17,7 @@ To run the sample, follow these steps:
 
 1. Clone or download this GitHub repo.
 2. [Create an Event Hubs namespace and an Event Hub](https://docs.microsoft.com/azure/event-hubs/event-hubs-create).
-3. In Visual Studio, select **File**, then **Open Project/Soultion**. Navigate to the \azure-event-hubs\samples\DotNet\Microsoft.Azure.EventHubs\SampleSender folder.
+3. In Visual Studio, select **File**, then **Open Project/solution**. Navigate to the \azure-event-hubs\samples\DotNet\Microsoft.Azure.EventHubs\SampleSender folder.
 4. Load the SampleSender.sln solution file into Visual Studio.
 5. Add the [Microsoft.Azure.EventHubs](https://www.nuget.org/packages/Microsoft.Azure.EventHubs/) NuGet package to the project.
 6. In Program.cs, replace the placeholders in brackets with the proper values that were obtained when creating the Event Hub. Make sure that the `Event Hubs connection string` is the namespace-level connection string, and not the Event Hub string:
